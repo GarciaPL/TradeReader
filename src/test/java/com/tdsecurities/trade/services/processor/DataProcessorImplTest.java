@@ -5,14 +5,11 @@ import com.tdsecurities.trade.model.csv.Trade;
 import com.tdsecurities.trade.model.csv.Valuation;
 import com.tdsecurities.trade.model.output.TradeAggregator;
 import com.tdsecurities.trade.model.output.TradeData;
-import com.tdsecurities.trade.services.processor.DataProcessorImpl;
-import com.tdsecurities.trade.services.processor.DataProcessor;
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
-import java.util.function.Consumer;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

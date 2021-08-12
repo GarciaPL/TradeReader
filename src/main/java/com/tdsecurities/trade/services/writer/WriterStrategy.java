@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface WriterStrategy {
     void write(List<TradeAggregator> aggregatedTrades);
+
     OutputType getOutputType();
 }
