@@ -21,14 +21,14 @@ Use bundled CSV files (Trade, RefData and Valuation) from jar to get output into
 >java -jar tradereader.jar --bundled_csv --output csv
 
 Provide external CSV files (Trade, RefData and Valuation) to get output into console
->java -jar tradereader-0.0.1-SNAPSHOT.jar -t path\to\trade.csv -r path\to\refdata.csv -v path\to\valuation.csv<br/><br/>
+>java -jar tradereader.jar -t path\to\trade.csv -r path\to\refdata.csv -v path\to\valuation.csv<br/><br/>
 or<br/><br/>
->java -jar tradereader-0.0.1-SNAPSHOT.jar -t path\to\trade.csv -r path\to\refdata.csv -v path\to\valuation.csv --output console
+>java -jar tradereader.jar -t path\to\trade.csv -r path\to\refdata.csv -v path\to\valuation.csv --output console
 
 Provide external CSV files (Trade, RefData and Valuation) to get output into CSV named output.csv
->java -jar tradereader-0.0.1-SNAPSHOT.jar -t path\to\trade.csv -r path\to\refdata.csv -v path\to\valuation.csv<br/><br/>
+>java -jar tradereader.jar -t path\to\trade.csv -r path\to\refdata.csv -v path\to\valuation.csv<br/><br/>
 or<br/><br/>
->java -jar tradereader-0.0.1-SNAPSHOT.jar -t path\to\trade.csv -r path\to\refdata.csv -v path\to\valuation.csv --output csv
+>java -jar tradereader.jar -t path\to\trade.csv -r path\to\refdata.csv -v path\to\valuation.csv --output csv
 
 ### Input
 
@@ -77,6 +77,10 @@ Calculated columns:
 ### Misc
 
 Getting output into console does scale better by using IntelliJ/Eclipse comparing to standard Shell
+
+### Prerequisite
+
+JDK 11
 
 ### Libraries
 
